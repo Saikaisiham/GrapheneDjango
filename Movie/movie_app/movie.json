@@ -1,0 +1,25 @@
+[
+    {
+      "model": "movie_app.actor",
+      "pk": 1,
+      "fields": {
+        "name": "Michael B. Jordan"
+      }
+    },
+    {
+      "model": "movie_app.actor",
+      "pk": 2,
+      "fields": {
+        "name": "Sylvester Stallone"
+      }
+    },
+    {
+      "model": "movie_app.movie",
+      "pk": 1,
+      "fields": {
+        "title": "Creed",
+        "actors": [1, 2],
+        "year": "2015"
+      }
+    }
+  ]
